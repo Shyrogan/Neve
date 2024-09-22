@@ -19,7 +19,7 @@
       persist_mode = true;
       insert_mappings = true;
       close_on_exit = true;
-      shell = "zsh";
+      shell = "nu";
       direction = "horizontal"; # 'vertical' | 'horizontal' | 'window' | 'float'
       auto_scroll = true;
       float_opts = {
