@@ -1,4 +1,7 @@
 {
+  pkgs,
+  lib,
+  config,
   ...
 }: {
   config = {
@@ -72,7 +75,7 @@
       scrolloff = 8;
 
       # Place a column line
-      colorcolumn = "80";
+      # colorcolumn = "80";
 
       # Reduce which-key timeout to 10ms
       timeoutlen = 100;
@@ -92,7 +95,7 @@
       ];
 
       # Enable chars list
-      list = true; # Show invisible characters (tabs, eol, ...)
+      list = false; # Show invisible characters (tabs, eol, ...)
       listchars = "tab:|->,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
 
       # More space in the neovim command line for displaying messages
