@@ -40,6 +40,7 @@
           };
         };
         svelte = {enable = true;};
+        tailwindcss = {enable = true;};
       };
       # keymaps = {
       #   silent = true;
