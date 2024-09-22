@@ -40,7 +40,21 @@
           };
         };
         svelte = {enable = true;};
-        tailwindcss = {enable = true;};
+        tailwindcss = {
+          enable = true;
+          settings = {
+            tailwindCSS = {
+              experimental = {
+                classRegex = [
+                  [ "cva\\(([^)]*)\\)" "[\"'`]([^\"'`]*).*?[\"'`]" ]
+                  [ "cx\\(([^)]*)\\)" "(?:'|\"|`)([^']*)(?:'|\"|`)" ]
+                  [ "cn\\(([^)]*)\\)" "[\"'`]([^\"'`]*).*?[\"'`]" ]
+                  [ "([a-zA-Z0-9\\-:]+)" ]
+                ];
+              };
+            };
+          };
+        };
       };
       # keymaps = {
       #   silent = true;
