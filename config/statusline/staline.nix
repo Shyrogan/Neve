@@ -24,8 +24,8 @@
         right = { "file_name", "line_column" },
       },
       defaults = {
-        left_separator = " ",
-        right_separator = "  ",
+        left_separator = "",
+        right_separator = "",
         branch_symbol = " ",
         mod_symbol = "",
         line_column = "[%l/%L]",

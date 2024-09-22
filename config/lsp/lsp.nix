@@ -10,50 +10,10 @@
         clangd = {enable = true;};
         lua-ls = {
           enable = true;
-          extraOptions = {
-            settings = {
-              Lua = {
-                completion = {
-                  callSnippet = "Replace";
-                };
-                telemetry = {
-                  enabled = false;
-                };
-                hint = {enable = true;};
-              };
-            };
-          };
         };
         nil-ls = {enable = true;};
         tsserver = {
           enable = false;
-          filetypes = ["javascript" "javascriptreact" "typescript" "typescriptreact"];
-          extraOptions = {
-            settings = {
-              javascript = {
-                inlayHints = {
-                  includeInlayEnumMemberValueHints = true;
-                  includeInlayFunctionLikeReturnTypeHints = true;
-                  includeInlayFunctionParameterTypeHints = true;
-                  includeInlayParameterNameHints = "all";
-                  includeInlayParameterNameHintsWhenArgumentMatchesName = true;
-                  includeInlayPropertyDeclarationTypeHints = true;
-                  includeInlayVariableTypeHints = true;
-                };
-              };
-              typescript = {
-                inlayHints = {
-                  includeInlayEnumMemberValueHints = true;
-                  includeInlayFunctionLikeReturnTypeHints = true;
-                  includeInlayFunctionParameterTypeHints = true;
-                  includeInlayParameterNameHints = "all";
-                  includeInlayParameterNameHintsWhenArgumentMatchesName = true;
-                  includeInlayPropertyDeclarationTypeHints = true;
-                  includeInlayVariableTypeHints = true;
-                };
-              };
-            };
-          };
         };
         eslint = {enable = true;};
         pyright = {enable = true;};
