@@ -80,5 +80,6 @@
     ./utils/wakatime.nix
     ./utils/whichkey.nix
     ./utils/wilder.nix
+    ./utils/typst.nix
   ];
 }
