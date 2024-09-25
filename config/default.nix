@@ -55,6 +55,7 @@
     ./ui/nvim-notify.nix
     ./ui/nui.nix
 
+    ./utils/auto-save.nix
     ./utils/better-escape.nix
     ./utils/neocord.nix
     ./utils/hardtime.nix
@@ -75,11 +76,11 @@
     ./utils/tmux-navigator.nix
     ./utils/todo-comments.nix
     ./utils/toggleterm.nix
+    ./utils/typst.nix
     ./utils/ultimate-autopair.nix
     ./utils/undotree.nix
     ./utils/wakatime.nix
     ./utils/whichkey.nix
     ./utils/wilder.nix
-    ./utils/typst.nix
   ];
 }
