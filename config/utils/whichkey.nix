@@ -107,6 +107,12 @@
           mode = "n";
           group = "+windows";
         }
+
+{
+        __unkeyed-1 = "<leader>n";
+          mode = "n";
+          group = "+note taking";
+        }
       ];
       win = {
         border = "none";

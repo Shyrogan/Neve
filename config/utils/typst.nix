@@ -2,7 +2,7 @@
   plugins.typst-vim = {
     enable = true;
     keymaps = {
-      watch = "<leader>tw";
+      watch = "<leader>nw";
     };
     settings = {
       pdf_viewer = "zathura";
