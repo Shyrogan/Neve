@@ -3,7 +3,7 @@
     enable = true;
     backgroundColour = "#000000";
     fps = 120;
-    render = "compact";
+    render = "minimal";
     timeout = 500;
     topDown = false;
   };
