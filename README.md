@@ -20,7 +20,7 @@
     </div>
    </h1>
 
-<h1 align="center">❄️ Neve ❄️</h1>
+<h1 align="center">❄️ Neve ❄️ (custom fork)</h1>
 <h3 align="center">
 
 <details>
