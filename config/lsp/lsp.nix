@@ -18,6 +18,7 @@
         eslint = {enable = true;};
         pyright = {enable = true;};
         ruff-lsp = {enable = true;};
+        typst-lsp = { enable = true; };
 
         rust-analyzer = {
           enable = true;
