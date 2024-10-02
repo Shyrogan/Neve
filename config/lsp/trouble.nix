@@ -3,7 +3,6 @@
     enable = true;
     settings = {
       auto_close = true;
-      auto_open = false;
     };
   };
   # TODO: Add keybinds to close trouble (q would be nice), rn I need to use :x to close it...
