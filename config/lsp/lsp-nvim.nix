@@ -111,6 +111,10 @@
               };
             };
           };
+
+          svelte = {
+            enable = true;
+          };
         };
         keymaps = {
           silent = true;
